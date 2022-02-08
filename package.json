@@ -1,15 +1,14 @@
 {
-  "name": "@example/framework-react",
+  "name": "@example/minimal",
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build"
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.17.0"
-  },
-  "snowpack": {
-    "workspaceRoot": "../.."
+    "astro": "^0.22.20"
   }
 }
